@@ -1,0 +1,74 @@
+html {
+  height: 100%;
+  width: 100%;
+}
+
+h2 {
+  color: white;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+li {
+  float: right;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #111;
+}
+
+.welcome-message {
+  font-size: 18px;
+  text-align: center;
+  color: black;
+  font-family: cursive;
+  font-weight: 700;
+  background-color: white;
+  margin: 8px;
+  border-radius: 10px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+.my-card {
+  background-color: lightgrey;
+  border-style: ridge;
+  border-color: black;
+  border-width: 2px;
+  margin: 10px;
+  border-radius: 10px;
+  min-height: 100px;
+  padding: 5px;
+}
+
+.instruction-button {
+  text-align: center;
+}
+
+h3 {
+  font-size: 16px;
+}
+
+footer {
+  background-color: lightgray;
+  color: black;
+}
+
+.my-image {
+  max-width: 300px;
+  padding-top: 20px;
+}
